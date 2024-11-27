@@ -1,0 +1,10 @@
+application:
+  name: test-api
+  language: nodejs
+  version: "16"
+  cluster: shared
+
+build:
+  command: npm install
+run:
+  command: node src/server.js
